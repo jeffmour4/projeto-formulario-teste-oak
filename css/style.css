@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+.page-form {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.page-list {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}

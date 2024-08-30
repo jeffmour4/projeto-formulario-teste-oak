@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="icon" type="image/x-icon" href="/Images/plus-sign_favicon.png">
+    </head>
+    <body>
+        
+        <div class="page-form">
+            <h1 id="form-title">Cadastro</h1>
+            <!--Formulário-->
+            <form>
+                <label for="p-name">Nome do Produto</label><br>
+                <input type="text" id="p-name"><br><br>
+
+                <label for="p-desc">Descrição do Produto</label><br>
+                <input type="text" id="p-desc"><br><br>
+
+                <label for="p-price">Valor do Produto</label><br>
+                <input type="number" step="0.01" min="0" id="p-price"><br><br>
+
+                <label>Disponível para Venda:<br>
+                    <input type="radio" id="yes" name="for-sale" value="yes">
+                    <label for="yes">Sim</label>
+                    <input type="radio" id="no" name="for-sale" value="no">
+                    <label for="no">Não</label>
+                </label>
+            </form><br>
+            <button id="input-button">Cadastrar</button>
+        </div>
+        <!--Listagem-->
+        <div class="page-list">
+            <h2 id="list-title">Listagem</h2>
+            <div id="list"></div>
+        </div>
+        <script src="/javascript/script.js"></script>
+    </body>
+</html>
